@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4B00A5, #2A80FF);
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 20px;
+}
+.calculator {
+    width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Заголовок */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#num1{
+    width: 300px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    background: white;
+    color: black; 
+}
+#num2{
+    width: 300px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    background: white;
+    color: black; 
+}
+
+/* Контейнер для кнопок */
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Кнопки */
+button {
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    color: white;
+    background: #4CAF50;
+}
+
+/* Цвета кнопок */
+#subtract { background: #2E8B57; }
+#multiply { background: #228B22; }
+#divide { background: #008000; }
+
+/* Анимация кнопок */
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Результат */
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: yellow;
+}
+
+/* Копирайт */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
